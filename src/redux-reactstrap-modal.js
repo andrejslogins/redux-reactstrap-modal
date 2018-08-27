@@ -30,7 +30,7 @@ const reduxReactstrapModal = (settings) => {
         
         const mapDispatchToProps = (dispatch, props) => ({
             toggle: () => {
-                console.log("hello there")
+                //not used for the ui
                 //dispatch(toggleDialog(name))
             },
 
