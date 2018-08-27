@@ -30,7 +30,8 @@ const reduxReactstrapModal = (settings) => {
         
         const mapDispatchToProps = (dispatch, props) => ({
             toggle: () => {
-                dispatch(toggleDialog(name))
+                console.log("hello there")
+                //dispatch(toggleDialog(name))
             },
 
             onOpened: () => {
